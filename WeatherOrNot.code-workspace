@@ -1,0 +1,56 @@
+
+{
+  "folders": [
+    {
+      "path": "client",
+      "name": "client"
+    },
+    {
+      "path": "server",
+      "name": "server"
+    }
+  ],
+  "settings": {
+    "editor.suggestSelection": "first",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "/.DS_Store": true,
+      "/.git": true,
+      "/.hg": true,
+      "/.svn": true,
+      "/*.meta": true,
+      "/node_modules": true,
+      "**/dist": true,
+      "**/.nyc_*": true,
+      "**/coverage": true,
+      "**/node_modules": true,
+      "**/.retool_types/**": true,
+      "**/*tsconfig.json": true,
+      ".cache": true,
+      "retool.config.json": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  }
+}
