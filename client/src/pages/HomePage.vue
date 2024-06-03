@@ -1,5 +1,22 @@
 <script setup>
+import { onMounted } from "vue";
+import { logger } from "../utils/Logger.js";
+import { weatherService } from "../services/WeatherService";
 
+async function getWeather(city, state) {
+  try {
+    await weatherService.getWeather(city, state);
+  } catch (error) {
+    logger.error(error);
+  }
+}
+
+const city = "Boise";
+const state = "Idaho";
+
+onMounted(() => {
+  getWeather(city, state);
+});
 </script>
 
 <template>

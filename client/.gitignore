@@ -19,3 +19,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Weather variables
+./weatherConfig.json
+weatherConfig.json

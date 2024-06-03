@@ -4,3 +4,4 @@ export const useSockets = false
 export const domain = '82py0l5jt61zn10o.us.auth0.com'
 export const clientId = 'hykoUyNDCrsovYQXXUKObg3y1Iw4UhUS'
 export const audience = 'http://sandbox.com'
+export const apiKey = process.env.WEATHER_API_KEY

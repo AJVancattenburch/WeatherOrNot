@@ -7,6 +7,11 @@ export const api = Axios.create({
   timeout: 8000
 })
 
+export const weatherApi = Axios.create({
+  baseURL: 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/',
+  timeout: 8000
+})
+
 api.interceptors.request.use(config => config, handleAxiosError)
 api.interceptors.response.use(response => response, handleAxiosError)
 
